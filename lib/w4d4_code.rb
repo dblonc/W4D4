@@ -1,6 +1,6 @@
 
 
-# class Array
+
 
     def my_uniq(arr)
         new_arr = []
@@ -8,4 +8,28 @@
         new_arr
     end
 
-# end
+
+
+
+class Array
+
+    def two_sum
+        pairs = []
+
+        self.each_with_index do |idx, i|
+            (i+1...self.length).to_a.each do |j|
+                pairs << [i,j] if self[i] + self[j] == 0
+            end
+        end
+
+        pairs
+    end
+
+
+
+end
+
+def my_transpose(arr)
+    arr.transpose
+
+end
