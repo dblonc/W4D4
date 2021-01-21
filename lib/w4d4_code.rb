@@ -49,3 +49,4 @@ stocks = []
     end
     stocks
 end
+
