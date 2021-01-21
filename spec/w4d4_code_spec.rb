@@ -26,5 +26,22 @@ describe "my_transpose" do
         expect(my_transpose(arr)).to eq (answer)
         
     end
-
 end
+
+describe "stock_picker" do 
+    stock = [1 ,3, 3, 5, 8, 5, 6, 1]
+    
+    it 'takes the smallest stock and the biggest stock' do
+        expect(stock_picker(stock)).to eq ([1,8])
+    end
+end
+
+
+
+# takes array of stocks on different days
+# outputs mos profitable pair 
+#day buy and sell 
+# find smalles and biggest amounts. but index of biggest amount has to be after smaller. 
+
+# [1 ,3, 3, 5, 8, 5, 6, 6]
+    # find smalles and largest number. 

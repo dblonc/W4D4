@@ -9,7 +9,9 @@
     end
 
 
-
+    def my_transpose(arr)
+        arr.transpose
+    end
 
 class Array
 
@@ -29,7 +31,35 @@ class Array
 
 end
 
-def my_transpose(arr)
-    arr.transpose
 
+
+def stock_picker(arr)
+    
+
+    
+    # arr = []
+    # sub_arr = []
+    # low = arr.min
+    # max = arr.max 
+
+    # arr.each_with_index do |ele1 , i1|
+    #     arr.each_with_index do |ele2. i2|
+    #         sub_arr << ele2 - ele1
+    #     end
+    #     arr << sub_arr
+    # end
+    # maxx = arr.map{|ele| ele.max}
+    # #[biggest nums in each array]
+    # maxxx = maxx.max
+    # [most profit]
+
+
+
+
+    # arr.max.index
+    # return [low, max] if arr.index(low) < arr.index(max)
 end
+# [4 ,3, 3, 5, 8, 5, 6, 1]
+# [[-1, -1, 1, 4, 1, 2, -3], [0, 2, 5, 2, 3, -2]]
+[1, 2]
+[2, 5]
