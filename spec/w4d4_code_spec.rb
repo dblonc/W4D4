@@ -36,12 +36,13 @@ describe "stock_picker" do
     end
 end
 
+describe "towers_of_hanoi" do
+    describe "#win?" do
+     
+     arr[1] == [1,2,3] || arr[2] == [1,2,3] && win == true 
+    end
 
+    describe "#move" do 
 
-# takes array of stocks on different days
-# outputs mos profitable pair 
-#day buy and sell 
-# find smalles and biggest amounts. but index of biggest amount has to be after smaller. 
-
-# [1 ,3, 3, 5, 8, 5, 6, 6]
-    # find smalles and largest number. 
+    end
+end
